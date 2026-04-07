@@ -2,7 +2,7 @@
 Name: Caleb Clifton
 File name: vehicle_app.py
 Description: This program defines a Vehicle superclass and an Automobile subclass.
-             It accepts user input for an automobile and displays the information
+             It accepts user input for an car verhicle type and displays the information
              in a readable format.
 """
 
