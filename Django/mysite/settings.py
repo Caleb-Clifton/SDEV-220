@@ -123,3 +123,29 @@ STATIC_ROOT = BASE_DIR / 'static'
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+LOGIN_REDIRECT_URL = '/'
+
+# DOMAIN CONFIGURATION EXAMPLE
+#
+# I don't want to actually buy a domain and this section said optional, so I've included this comment block to serve in place
+#
+# Example custom domain setup:
+#
+# ALLOWED_HOSTS = [
+#     'calebclifton.pythonanywhere.com',
+#     'www.example.com',
+#     'example.com',
+# ]
+#
+# DNS would point custom domain to PythonAnywhere.
+#
+# Example CNAME:
+# www.example.com -> calebclifton.pythonanywhere.com
+#
+# Example A Record:
+# example.com -> PythonAnywhere IP
+#
+# Domain configuration is completed through:
+# 1. Domain registrar DNS settings
+# 2. PythonAnywhere Web tab custom domain configuration
